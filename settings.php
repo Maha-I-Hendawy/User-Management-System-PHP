@@ -1,8 +1,8 @@
 <?php
 // Connection details
-$server = "localhost";
-$username = "root";
-$password = "a@y@12387!@#";
+$server = "";
+$username = "";
+$password = "";
 
 
 try {

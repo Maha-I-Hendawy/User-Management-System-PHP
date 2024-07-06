@@ -17,9 +17,51 @@
 	<?php require 'includes/_nav.php' ?>
 	<div class="container">
 
-		<div class="jumbotron text-center">
-		   <h1>Home Page</h1>	
-		</div>
+		
+		   <?php 
+
+                session_start();
+
+			if(isset($_SESSION["username"]) && isset($_SESSION["user_id"])){
+
+				$user = $_SESSION['username'];
+
+				echo "<div class='jumbotron text-center'>";
+
+				echo " <h1>". "Home Page" . "</h1>";
+
+				echo "</div>";
+		  
+
+
+				
+
+			}
+
+			else {
+
+				echo "<div class='jumbotron text-center'>";
+
+				echo " <h1>". "Home Page" . "</h1>";
+
+				echo "</div>";
+
+				echo "<a href='register.php' class='btn btn-primary'>" . "Sign Up" . "</a>";
+
+
+		        echo "<a href='login.php' class='btn btn-info'>" . "Login". "</a>";
+
+		        echo "</div>";
+		  
+
+				
+			}
+
+
+
+		   ?>
+		   
+	
 		
 	</div>
 

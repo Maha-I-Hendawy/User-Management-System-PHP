@@ -73,12 +73,13 @@
             $_SESSION['user_id'] = $row_id;
 
            $_SESSION['username'] = $row_username;
-           header("Location: home.php");
+           header("Location: dashboard.php");
 
             }
       else {
 
         echo "invalid password";
+        header("Location: login.php");
       }
 
   }

@@ -1,9 +1,9 @@
-# UMS Software
+# UMS-PHP Software
 
  ## Overview
 The UMS software is a simple crud application with a log-in system and role-based access control.
 
-## What the Linguistics app does
+## What the UMS-PHP app does
 
 - Create an account.
 - Log in.
@@ -88,8 +88,8 @@ This application is implemented with:
      - System Design
 
 ## References
-   - [PHP]()
-   - [MySQL]()
+   - [PHP](https://www.php.net/)
+   - [MySQL](https://www.mysql.com/)
      
 
 ## Available Documentation
